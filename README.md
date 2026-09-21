@@ -8,6 +8,14 @@ The upstream DomainBed README follows; its historical results are separate from 
 
 ---
 
+## Latest PACS results
+
+- [ERM: accuracy by domain and backbone](results/pacs/erm/README.md)
+- [Selected ERM hyperparameters](results/pacs/erm/hyperparameters.md)
+- [26 completed algorithms](results/pacs/algorithms/README.md)
+- [DINOv2 vs ResNet representation analysis](results/pacs/representation/README.md)
+- [Public checkpoint repository](https://huggingface.co/lucaznguyenofficial/DGGD-checkpoints) — upload/verification status in [checkpoint notes](results/pacs/checkpoints/README.md).
+
 # Welcome to DomainBed
 
 DomainBed is a PyTorch suite containing benchmark datasets and algorithms for domain generalization, as introduced in [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434).

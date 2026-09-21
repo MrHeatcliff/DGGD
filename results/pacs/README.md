@@ -2,6 +2,9 @@
 
 ## Results
 
+- [Completed representation diagnostics](representation/README.md)
+- [Checkpoint download and verification status](checkpoints/README.md)
+
 - [ERM: all four backbones, all domains and three seeds](erm/README.md)
 - [Selected ERM hyperparameters: 16 backbone/domain configurations](erm/hyperparameters.md)
 - [Full selected configurations and confirmation scores](erm/selected_hparams.json)

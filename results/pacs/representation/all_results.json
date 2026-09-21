@@ -1,0 +1,2402 @@
+[
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.12746064364910126,
+      "different_class_within_domain_cosine_distance": 0.48883211612701416,
+      "distance_ratio": 0.26074523224653046,
+      "linear_cka_vs_pretrained": 0.6132683753967285,
+      "balanced_domain_probe_acc": 0.9960317611694336,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.986328125
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9933429559071859,
+        "alpha": 0.1,
+        "target_acc": 0.98779296875,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9937675793965658,
+        "alpha": 1.0,
+        "target_acc": 0.986328125,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9933429559071859,
+        "alpha": 1.0,
+        "target_acc": 0.98876953125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9933429559071859,
+        "alpha": 0.001,
+        "target_acc": 0.98876953125,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9873046875,
+    "reported_target_acc": 0.9873046875
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.119815893471241,
+      "different_class_within_domain_cosine_distance": 0.4914511442184448,
+      "distance_ratio": 0.24380021265752533,
+      "linear_cka_vs_pretrained": 0.6030340790748596,
+      "balanced_domain_probe_acc": 0.9960317611694336,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9814453125
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9930553237597147,
+        "alpha": 0.001,
+        "target_acc": 0.98388671875,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9926307002703348,
+        "alpha": 0.001,
+        "target_acc": 0.986328125,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9926307002703348,
+        "alpha": 0.001,
+        "target_acc": 0.98486328125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9926307002703348,
+        "alpha": 0.001,
+        "target_acc": 0.984375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.98193359375,
+    "reported_target_acc": 0.98193359375
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.12774431705474854,
+      "different_class_within_domain_cosine_distance": 0.48057857155799866,
+      "distance_ratio": 0.2658135934788172,
+      "linear_cka_vs_pretrained": 0.6152746677398682,
+      "balanced_domain_probe_acc": 0.9960317611694336,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9814453125
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9941922028859457,
+        "alpha": 0.001,
+        "target_acc": 0.98388671875,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.993630568186442,
+        "alpha": 10.0,
+        "target_acc": 0.98291015625,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9937675793965658,
+        "alpha": 0.001,
+        "target_acc": 0.98486328125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9924936890602112,
+        "alpha": 1.0,
+        "target_acc": 0.984375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.98095703125,
+    "reported_target_acc": 0.98095703125
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.14356105029582977,
+      "different_class_within_domain_cosine_distance": 0.4412138760089874,
+      "distance_ratio": 0.3253774600074125,
+      "linear_cka_vs_pretrained": 0.6654582023620605,
+      "balanced_domain_probe_acc": 0.9801587462425232,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9547781569965871
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9911513328552246,
+        "alpha": 0.001,
+        "target_acc": 0.9573378562927246,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9923909505208334,
+        "alpha": 0.001,
+        "target_acc": 0.9624573588371277,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9911513328552246,
+        "alpha": 0.1,
+        "target_acc": 0.960324227809906,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9903363386789957,
+        "alpha": 0.001,
+        "target_acc": 0.961604118347168,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9534983038902283,
+    "reported_target_acc": 0.9534982935153583
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.14074835181236267,
+      "different_class_within_domain_cosine_distance": 0.4567949175834656,
+      "distance_ratio": 0.3081215363711772,
+      "linear_cka_vs_pretrained": 0.6476433873176575,
+      "balanced_domain_probe_acc": 0.9722222089767456,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9534982935153583
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9944798350334167,
+        "alpha": 0.001,
+        "target_acc": 0.9556313753128052,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9940552115440369,
+        "alpha": 0.001,
+        "target_acc": 0.9569112658500671,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9936648408571879,
+        "alpha": 10.0,
+        "target_acc": 0.9590443968772888,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9940552115440369,
+        "alpha": 0.001,
+        "target_acc": 0.9581910967826843,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9526450634002686,
+    "reported_target_acc": 0.9526450511945392
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.13092204928398132,
+      "different_class_within_domain_cosine_distance": 0.45971983671188354,
+      "distance_ratio": 0.28478660007449935,
+      "linear_cka_vs_pretrained": 0.6308802962303162,
+      "balanced_domain_probe_acc": 0.9682539701461792,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9581911262798635
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9920005798339844,
+        "alpha": 0.001,
+        "target_acc": 0.9573378562927246,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9923909505208334,
+        "alpha": 100.0,
+        "target_acc": 0.9645904302597046,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9923909505208334,
+        "alpha": 10.0,
+        "target_acc": 0.9624573588371277,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9923909505208334,
+        "alpha": 1.0,
+        "target_acc": 0.9611774682998657,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9564846158027649,
+    "reported_target_acc": 0.9564846416382252
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.13330748677253723,
+      "different_class_within_domain_cosine_distance": 0.45571109652519226,
+      "distance_ratio": 0.29252631280872887,
+      "linear_cka_vs_pretrained": 0.6355855464935303,
+      "balanced_domain_probe_acc": 0.976190447807312,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9994011976047904
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9904048045476278,
+        "alpha": 1.0,
+        "target_acc": 1.0,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.993240217367808,
+        "alpha": 100.0,
+        "target_acc": 0.9994012117385864,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9916786948839823,
+        "alpha": 100.0,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9912540713946024,
+        "alpha": 1.0,
+        "target_acc": 0.9994012117385864,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 1.0,
+    "reported_target_acc": 1.0
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.13317511975765228,
+      "different_class_within_domain_cosine_distance": 0.46186158061027527,
+      "distance_ratio": 0.2883442255181367,
+      "linear_cka_vs_pretrained": 0.6340064406394958,
+      "balanced_domain_probe_acc": 0.9841269850730896,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9982035928143712
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9918157060941061,
+        "alpha": 0.01,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9918157060941061,
+        "alpha": 0.001,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9918157060941061,
+        "alpha": 0.001,
+        "target_acc": 0.9994012117385864,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9918157060941061,
+        "alpha": 0.001,
+        "target_acc": 0.9982035756111145,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9982035756111145,
+    "reported_target_acc": 0.9982035928143712
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.13860484957695007,
+      "different_class_within_domain_cosine_distance": 0.4456981122493744,
+      "distance_ratio": 0.31098370347011633,
+      "linear_cka_vs_pretrained": 0.6518609523773193,
+      "balanced_domain_probe_acc": 0.9801587462425232,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9994011976047904
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9909321864446005,
+        "alpha": 0.001,
+        "target_acc": 0.9994012117385864,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9896925489107767,
+        "alpha": 0.001,
+        "target_acc": 0.9994012117385864,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9901171922683716,
+        "alpha": 0.001,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9896925489107767,
+        "alpha": 0.001,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9994012117385864,
+    "reported_target_acc": 0.9994011976047904
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.14670152962207794,
+      "different_class_within_domain_cosine_distance": 0.5035825371742249,
+      "distance_ratio": 0.29131576016370775,
+      "linear_cka_vs_pretrained": 0.625626266002655,
+      "balanced_domain_probe_acc": 0.9902597665786743,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.899974548231102
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.998575488726298,
+        "alpha": 1.0,
+        "target_acc": 0.9045558571815491,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.001,
+        "target_acc": 0.9007381200790405,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.998575488726298,
+        "alpha": 10.0,
+        "target_acc": 0.899974524974823,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.001,
+        "target_acc": 0.9035378098487854,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.907355546951294,
+    "reported_target_acc": 0.9073555612115042
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.14221307635307312,
+      "different_class_within_domain_cosine_distance": 0.5039915442466736,
+      "distance_ratio": 0.2821735363946272,
+      "linear_cka_vs_pretrained": 0.6178134083747864,
+      "balanced_domain_probe_acc": 0.9740259647369385,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.8373631967421736
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.999287744363149,
+        "alpha": 0.001,
+        "target_acc": 0.8551794290542603,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.999287744363149,
+        "alpha": 0.001,
+        "target_acc": 0.8544158935546875,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.999287744363149,
+        "alpha": 0.001,
+        "target_acc": 0.8485620021820068,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.999287744363149,
+        "alpha": 0.001,
+        "target_acc": 0.8561974763870239,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8505980968475342,
+    "reported_target_acc": 0.8505981165691016
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.15093883872032166,
+      "different_class_within_domain_cosine_distance": 0.4669189155101776,
+      "distance_ratio": 0.3232656328677513,
+      "linear_cka_vs_pretrained": 0.6570233702659607,
+      "balanced_domain_probe_acc": 0.9772727489471436,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.8816492746245864
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.01,
+        "target_acc": 0.8976839184761047,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.001,
+        "target_acc": 0.8987019658088684,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.001,
+        "target_acc": 0.8956477642059326,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.998575488726298,
+        "alpha": 0.001,
+        "target_acc": 0.8867396116256714,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8836854100227356,
+    "reported_target_acc": 0.8836854161364215
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "pretrained",
+    "target": 0,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.30316856503486633,
+      "different_class_within_domain_cosine_distance": 0.24001558125019073,
+      "distance_ratio": 1.2631203501694555,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 1.0,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.943359375
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9868092934290568,
+        "alpha": 0.01,
+        "target_acc": 0.97265625,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.983823279539744,
+        "alpha": 0.001,
+        "target_acc": 0.9765625,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9848231673240662,
+        "alpha": 0.1,
+        "target_acc": 0.98291015625,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9799880186716715,
+        "alpha": 0.1,
+        "target_acc": 0.98486328125,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "pretrained",
+    "target": 1,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.3053559362888336,
+      "different_class_within_domain_cosine_distance": 0.23552942276000977,
+      "distance_ratio": 1.2964662024411822,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.988095223903656,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.867320819112628
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9894528190294901,
+        "alpha": 1.0,
+        "target_acc": 0.9475256204605103,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9877543052037557,
+        "alpha": 0.001,
+        "target_acc": 0.9368600845336914,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9873639345169067,
+        "alpha": 0.01,
+        "target_acc": 0.9308874011039734,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9873639345169067,
+        "alpha": 0.001,
+        "target_acc": 0.9449658989906311,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "pretrained",
+    "target": 2,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.30449673533439636,
+      "different_class_within_domain_cosine_distance": 0.2367427945137024,
+      "distance_ratio": 1.2861921984146067,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9920634627342224,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9952095808383233
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9853163162867228,
+        "alpha": 0.01,
+        "target_acc": 0.9838323593139648,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9803441762924194,
+        "alpha": 0.001,
+        "target_acc": 0.9916167855262756,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9826179345448812,
+        "alpha": 0.1,
+        "target_acc": 0.9982035756111145,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9769335190455118,
+        "alpha": 0.1,
+        "target_acc": 0.9988024234771729,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "dinov2",
+    "phase": "pretrained",
+    "target": 3,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.3055811822414398,
+      "different_class_within_domain_cosine_distance": 0.23503658175468445,
+      "distance_ratio": 1.3001430669221745,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9870129823684692,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.7561720539577501
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9955210089683533,
+        "alpha": 0.1,
+        "target_acc": 0.9132094383239746,
+        "pca_dimensions": null
+      },
+      "last_cls": {
+        "source_val": 0.9948087533315023,
+        "alpha": 0.001,
+        "target_acc": 0.9099007248878479,
+        "pca_dimensions": null
+      },
+      "last_cls_patch": {
+        "source_val": 0.9955210089683533,
+        "alpha": 0.001,
+        "target_acc": 0.8882667422294617,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9926720062891642,
+        "alpha": 0.001,
+        "target_acc": 0.9127004146575928,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.05274628475308418,
+      "different_class_within_domain_cosine_distance": 0.49968430399894714,
+      "distance_ratio": 0.10555921875263731,
+      "linear_cka_vs_pretrained": 0.29204437136650085,
+      "balanced_domain_probe_acc": 0.8928571343421936,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.78076171875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9624683062235514,
+        "alpha": 0.001,
+        "target_acc": 0.81396484375,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9624664584795634,
+        "alpha": 1.0,
+        "target_acc": 0.81298828125,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.80126953125,
+    "reported_target_acc": 0.80126953125
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.05444396287202835,
+      "different_class_within_domain_cosine_distance": 0.4843817353248596,
+      "distance_ratio": 0.11239887655036063,
+      "linear_cka_vs_pretrained": 0.29367348551750183,
+      "balanced_domain_probe_acc": 0.9007936716079712,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7998046875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9666208426157633,
+        "alpha": 1.0,
+        "target_acc": 0.81494140625,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9674700895945231,
+        "alpha": 0.001,
+        "target_acc": 0.810546875,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.79931640625,
+    "reported_target_acc": 0.79931640625
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.047445978969335556,
+      "different_class_within_domain_cosine_distance": 0.5238240361213684,
+      "distance_ratio": 0.09057617768105332,
+      "linear_cka_vs_pretrained": 0.2752290368080139,
+      "balanced_domain_probe_acc": 0.8690476417541504,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.78271484375
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9674583276112875,
+        "alpha": 0.1,
+        "target_acc": 0.8017578125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9671707153320312,
+        "alpha": 0.001,
+        "target_acc": 0.80224609375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.78515625,
+    "reported_target_acc": 0.78515625
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.05254358425736427,
+      "different_class_within_domain_cosine_distance": 0.5262353420257568,
+      "distance_ratio": 0.09984807188186251,
+      "linear_cka_vs_pretrained": 0.2911674380302429,
+      "balanced_domain_probe_acc": 0.8849206566810608,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7406143344709898
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9610613981882731,
+        "alpha": 100.0,
+        "target_acc": 0.7495733499526978,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9610613981882731,
+        "alpha": 100.0,
+        "target_acc": 0.7495733499526978,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.74274742603302,
+    "reported_target_acc": 0.7427474402730375
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.06080713868141174,
+      "different_class_within_domain_cosine_distance": 0.47464680671691895,
+      "distance_ratio": 0.12811028710381137,
+      "linear_cka_vs_pretrained": 0.31088021397590637,
+      "balanced_domain_probe_acc": 0.8769841194152832,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7410409556313993
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9629429380098978,
+        "alpha": 10.0,
+        "target_acc": 0.7508532404899597,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9621279438336691,
+        "alpha": 10.0,
+        "target_acc": 0.751279890537262,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7508532404899597,
+    "reported_target_acc": 0.7508532423208191
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.07667911797761917,
+      "different_class_within_domain_cosine_distance": 0.4306522309780121,
+      "distance_ratio": 0.17805345580929824,
+      "linear_cka_vs_pretrained": 0.35423868894577026,
+      "balanced_domain_probe_acc": 0.8888888955116272,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7231228668941979
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.960222065448761,
+        "alpha": 1.0,
+        "target_acc": 0.7551194429397583,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.96164470911026,
+        "alpha": 0.1,
+        "target_acc": 0.7534129619598389,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7448805570602417,
+    "reported_target_acc": 0.7448805460750854
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.03736225143074989,
+      "different_class_within_domain_cosine_distance": 0.5062299370765686,
+      "distance_ratio": 0.07380490305751862,
+      "linear_cka_vs_pretrained": 0.26453283429145813,
+      "balanced_domain_probe_acc": 0.8809523582458496,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9473053892215569
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.958085834980011,
+        "alpha": 0.01,
+        "target_acc": 0.9520958065986633,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.958085834980011,
+        "alpha": 100.0,
+        "target_acc": 0.9497005939483643,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9580838084220886,
+    "reported_target_acc": 0.9580838323353293
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.041155342012643814,
+      "different_class_within_domain_cosine_distance": 0.49976786971092224,
+      "distance_ratio": 0.08234891538035259,
+      "linear_cka_vs_pretrained": 0.2693258821964264,
+      "balanced_domain_probe_acc": 0.8809523582458496,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9467065868263473
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9607841769854227,
+        "alpha": 10.0,
+        "target_acc": 0.9532934427261353,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9607841769854227,
+        "alpha": 10.0,
+        "target_acc": 0.9526945948600769,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.955089807510376,
+    "reported_target_acc": 0.9550898203592815
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.039779990911483765,
+      "different_class_within_domain_cosine_distance": 0.5069697499275208,
+      "distance_ratio": 0.07846620220865433,
+      "linear_cka_vs_pretrained": 0.27702468633651733,
+      "balanced_domain_probe_acc": 0.85317462682724,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9497005988023952
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9525656700134277,
+        "alpha": 100.0,
+        "target_acc": 0.9598802328109741,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9527369538942972,
+        "alpha": 10.0,
+        "target_acc": 0.9592814445495605,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.961077868938446,
+    "reported_target_acc": 0.9610778443113772
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.07220680266618729,
+      "different_class_within_domain_cosine_distance": 0.4329706132411957,
+      "distance_ratio": 0.16677067786575833,
+      "linear_cka_vs_pretrained": 0.3523436188697815,
+      "balanced_domain_probe_acc": 0.9318181872367859,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.7345380503945024
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9639962911605835,
+        "alpha": 1.0,
+        "target_acc": 0.7638075947761536,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9639962911605835,
+        "alpha": 1.0,
+        "target_acc": 0.7643166184425354,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7551539540290833,
+    "reported_target_acc": 0.7551539832018326
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.06654670089483261,
+      "different_class_within_domain_cosine_distance": 0.44916099309921265,
+      "distance_ratio": 0.14815779178788457,
+      "linear_cka_vs_pretrained": 0.341579407453537,
+      "balanced_domain_probe_acc": 0.9383116960525513,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.6968694324255535
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9636077880859375,
+        "alpha": 10.0,
+        "target_acc": 0.7398829460144043,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9636077880859375,
+        "alpha": 10.0,
+        "target_acc": 0.7401374578475952,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7304657697677612,
+    "reported_target_acc": 0.7304657673708322
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.0729641243815422,
+      "different_class_within_domain_cosine_distance": 0.45893335342407227,
+      "distance_ratio": 0.15898631868257462,
+      "linear_cka_vs_pretrained": 0.36030498147010803,
+      "balanced_domain_probe_acc": 0.9188311696052551,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.677271570374141
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.965501050154368,
+        "alpha": 100.0,
+        "target_acc": 0.708831787109375,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.965501050154368,
+        "alpha": 100.0,
+        "target_acc": 0.708831787109375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7034869194030762,
+    "reported_target_acc": 0.7034868923390175
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "pretrained",
+    "target": 0,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.23158366978168488,
+      "different_class_within_domain_cosine_distance": 0.14003945887088776,
+      "distance_ratio": 1.6537029752107095,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9484127163887024,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.60546875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.8804380297660828,
+        "alpha": 0.1,
+        "target_acc": 0.67529296875,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8702629407246908,
+        "alpha": 1.0,
+        "target_acc": 0.69287109375,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "pretrained",
+    "target": 1,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.23528647422790527,
+      "different_class_within_domain_cosine_distance": 0.13787570595741272,
+      "distance_ratio": 1.7065114741866196,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9444444179534912,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.40486348122866894
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.8894435167312622,
+        "alpha": 0.01,
+        "target_acc": 0.5477815866470337,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8783130447069804,
+        "alpha": 0.001,
+        "target_acc": 0.5362628102302551,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "pretrained",
+    "target": 2,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.22977039217948914,
+      "different_class_within_domain_cosine_distance": 0.1364540457725525,
+      "distance_ratio": 1.6838664685873834,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9246031641960144,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.8479172587394714,
+        "alpha": 0.1,
+        "target_acc": 0.9095808267593384,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8305760025978088,
+        "alpha": 1.0,
+        "target_acc": 0.942514955997467,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet18",
+    "phase": "pretrained",
+    "target": 3,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.2341863512992859,
+      "different_class_within_domain_cosine_distance": 0.1408906728029251,
+      "distance_ratio": 1.6621849171439531,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9675324559211731,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.2720794095189616
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.907167116800944,
+        "alpha": 0.1,
+        "target_acc": 0.49350979924201965,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9076963663101196,
+        "alpha": 0.1,
+        "target_acc": 0.4874013662338257,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.042269639670848846,
+      "different_class_within_domain_cosine_distance": 0.4909271001815796,
+      "distance_ratio": 0.08610166286443453,
+      "linear_cka_vs_pretrained": 0.2904490828514099,
+      "balanced_domain_probe_acc": 0.920634925365448,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.85888671875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9771464864412943,
+        "alpha": 100.0,
+        "target_acc": 0.8701171875,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9771464864412943,
+        "alpha": 100.0,
+        "target_acc": 0.87060546875,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.86376953125,
+    "reported_target_acc": 0.86376953125
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.04039505124092102,
+      "different_class_within_domain_cosine_distance": 0.5165364742279053,
+      "distance_ratio": 0.07820367632566833,
+      "linear_cka_vs_pretrained": 0.2827346622943878,
+      "balanced_domain_probe_acc": 0.908730149269104,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.84375
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9774322311083475,
+        "alpha": 0.001,
+        "target_acc": 0.8662109375,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9767218629519144,
+        "alpha": 10.0,
+        "target_acc": 0.8564453125,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.837890625,
+    "reported_target_acc": 0.837890625
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.037076156586408615,
+      "different_class_within_domain_cosine_distance": 0.5174031257629395,
+      "distance_ratio": 0.07165816119053742,
+      "linear_cka_vs_pretrained": 0.2754167318344116,
+      "balanced_domain_probe_acc": 0.908730149269104,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.8388671875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9740333755811056,
+        "alpha": 100.0,
+        "target_acc": 0.86181640625,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9740333755811056,
+        "alpha": 100.0,
+        "target_acc": 0.86181640625,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8486328125,
+    "reported_target_acc": 0.8486328125
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.05401977524161339,
+      "different_class_within_domain_cosine_distance": 0.4715602695941925,
+      "distance_ratio": 0.11455539986034198,
+      "linear_cka_vs_pretrained": 0.3053206205368042,
+      "balanced_domain_probe_acc": 0.9365079402923584,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7568259385665529
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9719394048055013,
+        "alpha": 1.0,
+        "target_acc": 0.7666382193565369,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9715147813161215,
+        "alpha": 0.1,
+        "target_acc": 0.7640784978866577,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7653583884239197,
+    "reported_target_acc": 0.765358361774744
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.057984888553619385,
+      "different_class_within_domain_cosine_distance": 0.46065258979797363,
+      "distance_ratio": 0.12587552927695372,
+      "linear_cka_vs_pretrained": 0.3140631914138794,
+      "balanced_domain_probe_acc": 0.9444444179534912,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.76919795221843
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9740039507548014,
+        "alpha": 0.001,
+        "target_acc": 0.776450514793396,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9717663327852885,
+        "alpha": 100.0,
+        "target_acc": 0.7738907933235168,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7623720169067383,
+    "reported_target_acc": 0.7623720136518771
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.04559884965419769,
+      "different_class_within_domain_cosine_distance": 0.5006760954856873,
+      "distance_ratio": 0.09107454912534609,
+      "linear_cka_vs_pretrained": 0.28234800696372986,
+      "balanced_domain_probe_acc": 0.9246031641960144,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7470136518771331
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9736379186312357,
+        "alpha": 0.1,
+        "target_acc": 0.7627986073493958,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9748775362968445,
+        "alpha": 0.001,
+        "target_acc": 0.7615187764167786,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7581058144569397,
+    "reported_target_acc": 0.7581058020477816
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.01990703120827675,
+      "different_class_within_domain_cosine_distance": 0.5557176470756531,
+      "distance_ratio": 0.03582220451884748,
+      "linear_cka_vs_pretrained": 0.24476270377635956,
+      "balanced_domain_probe_acc": 0.8333333134651184,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9622754491017964
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9684410889943441,
+        "alpha": 10.0,
+        "target_acc": 0.9652694463729858,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9684410889943441,
+        "alpha": 10.0,
+        "target_acc": 0.9652694463729858,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9676646590232849,
+    "reported_target_acc": 0.9676646706586827
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.020008113235235214,
+      "different_class_within_domain_cosine_distance": 0.5551823973655701,
+      "distance_ratio": 0.036038810542583725,
+      "linear_cka_vs_pretrained": 0.24413606524467468,
+      "balanced_domain_probe_acc": 0.8452380895614624,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9622754491017964
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9714955687522888,
+        "alpha": 10.0,
+        "target_acc": 0.9622754454612732,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9714955687522888,
+        "alpha": 10.0,
+        "target_acc": 0.9622754454612732,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9604790210723877,
+    "reported_target_acc": 0.9604790419161676
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.01845680922269821,
+      "different_class_within_domain_cosine_distance": 0.572946310043335,
+      "distance_ratio": 0.032213854769921155,
+      "linear_cka_vs_pretrained": 0.24312230944633484,
+      "balanced_domain_probe_acc": 0.8134920597076416,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9604790419161676
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9693382183710734,
+        "alpha": 100.0,
+        "target_acc": 0.9640718698501587,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9693382183710734,
+        "alpha": 100.0,
+        "target_acc": 0.9640718698501587,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9622754454612732,
+    "reported_target_acc": 0.9622754491017964
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.0418543666601181,
+      "different_class_within_domain_cosine_distance": 0.5263476371765137,
+      "distance_ratio": 0.07951848494017653,
+      "linear_cka_vs_pretrained": 0.2870851159095764,
+      "balanced_domain_probe_acc": 0.9610389471054077,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.7505726648002036
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9770490328470866,
+        "alpha": 0.01,
+        "target_acc": 0.752863347530365,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9755217830340067,
+        "alpha": 100.0,
+        "target_acc": 0.7498090863227844,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7482820153236389,
+    "reported_target_acc": 0.7482820055993892
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.04780598729848862,
+      "different_class_within_domain_cosine_distance": 0.5127002000808716,
+      "distance_ratio": 0.09324355108686883,
+      "linear_cka_vs_pretrained": 0.2971225678920746,
+      "balanced_domain_probe_acc": 0.9610389471054077,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.766098243827946
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9756020704905192,
+        "alpha": 0.001,
+        "target_acc": 0.7780605554580688,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9755217830340067,
+        "alpha": 10.0,
+        "target_acc": 0.7734792828559875,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7701705098152161,
+    "reported_target_acc": 0.7701705268516161
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.048904549330472946,
+      "different_class_within_domain_cosine_distance": 0.5112870335578918,
+      "distance_ratio": 0.09564989158860723,
+      "linear_cka_vs_pretrained": 0.29918596148490906,
+      "balanced_domain_probe_acc": 0.9610389471054077,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.7538813947569356
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9754190444946289,
+        "alpha": 0.001,
+        "target_acc": 0.752863347530365,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9737087885538737,
+        "alpha": 100.0,
+        "target_acc": 0.7561720609664917,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7592262625694275,
+    "reported_target_acc": 0.7592262662255027
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "pretrained",
+    "target": 0,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.24431118369102478,
+      "different_class_within_domain_cosine_distance": 0.1463308334350586,
+      "distance_ratio": 1.66958103057241,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9682539701461792,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.55126953125
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9099856615066528,
+        "alpha": 0.01,
+        "target_acc": 0.68212890625,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8772508502006531,
+        "alpha": 0.001,
+        "target_acc": 0.7333984375,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "pretrained",
+    "target": 1,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.2400893121957779,
+      "different_class_within_domain_cosine_distance": 0.14225834608078003,
+      "distance_ratio": 1.6876993077049096,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9484127163887024,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.3848122866894198
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9111806352933248,
+        "alpha": 0.1,
+        "target_acc": 0.572098970413208,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8834977746009827,
+        "alpha": 0.01,
+        "target_acc": 0.5571672320365906,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "pretrained",
+    "target": 2,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.24258440732955933,
+      "different_class_within_domain_cosine_distance": 0.1448909491300583,
+      "distance_ratio": 1.6742550779469916,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9484127163887024,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9299401197604791
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.8784486254056295,
+        "alpha": 0.1,
+        "target_acc": 0.9688622951507568,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8338496287663778,
+        "alpha": 1.0,
+        "target_acc": 0.9682634472846985,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50",
+    "phase": "pretrained",
+    "target": 3,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.24394480884075165,
+      "different_class_within_domain_cosine_distance": 0.14367496967315674,
+      "distance_ratio": 1.6978935815730236,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9772727489471436,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.28887757699160094
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9380978345870972,
+        "alpha": 0.1,
+        "target_acc": 0.5044540762901306,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9235376119613647,
+        "alpha": 0.1,
+        "target_acc": 0.47391194105148315,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.07607103884220123,
+      "different_class_within_domain_cosine_distance": 0.7611216306686401,
+      "distance_ratio": 0.09994596891875658,
+      "linear_cka_vs_pretrained": 0.34699520468711853,
+      "balanced_domain_probe_acc": 0.9523809552192688,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.87451171875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9846626917521158,
+        "alpha": 0.01,
+        "target_acc": 0.88623046875,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9853749473889669,
+        "alpha": 0.001,
+        "target_acc": 0.8896484375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8896484375,
+    "reported_target_acc": 0.8896484375
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.07498641312122345,
+      "different_class_within_domain_cosine_distance": 0.7432988882064819,
+      "distance_ratio": 0.10088325747689385,
+      "linear_cka_vs_pretrained": 0.3377675712108612,
+      "balanced_domain_probe_acc": 0.9285714030265808,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.80419921875
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9825512766838074,
+        "alpha": 0.001,
+        "target_acc": 0.84521484375,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9818390210469564,
+        "alpha": 100.0,
+        "target_acc": 0.8359375,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8203125,
+    "reported_target_acc": 0.8203125
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 0,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.06662759184837341,
+      "different_class_within_domain_cosine_distance": 0.7510466575622559,
+      "distance_ratio": 0.08871298630717961,
+      "linear_cka_vs_pretrained": 0.3422374129295349,
+      "balanced_domain_probe_acc": 0.9166666865348816,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.880859375
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9828135371208191,
+        "alpha": 0.1,
+        "target_acc": 0.89501953125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9828135371208191,
+        "alpha": 1.0,
+        "target_acc": 0.8935546875,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.89404296875,
+    "reported_target_acc": 0.89404296875
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.10411130636930466,
+      "different_class_within_domain_cosine_distance": 0.7417026162147522,
+      "distance_ratio": 0.1403679912855536,
+      "linear_cka_vs_pretrained": 0.3648217022418976,
+      "balanced_domain_probe_acc": 0.9603174328804016,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7606655290102389
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9762073159217834,
+        "alpha": 10.0,
+        "target_acc": 0.7726109027862549,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9762073159217834,
+        "alpha": 10.0,
+        "target_acc": 0.7721843123435974,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7747440338134766,
+    "reported_target_acc": 0.7747440273037542
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.09603677690029144,
+      "different_class_within_domain_cosine_distance": 0.7487003207206726,
+      "distance_ratio": 0.1282713179658449,
+      "linear_cka_vs_pretrained": 0.3498536944389343,
+      "balanced_domain_probe_acc": 0.9404761791229248,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7649317406143344
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9753237962722778,
+        "alpha": 10.0,
+        "target_acc": 0.7819966077804565,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9761730432510376,
+        "alpha": 0.001,
+        "target_acc": 0.7811433672904968,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.783703088760376,
+    "reported_target_acc": 0.783703071672355
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 1,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.0941823348402977,
+      "different_class_within_domain_cosine_distance": 0.7445183992385864,
+      "distance_ratio": 0.12650101721679047,
+      "linear_cka_vs_pretrained": 0.3536171615123749,
+      "balanced_domain_probe_acc": 0.9444444179534912,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.7969283276450512
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9760829011599222,
+        "alpha": 0.1,
+        "target_acc": 0.80887371301651,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9760829011599222,
+        "alpha": 1.0,
+        "target_acc": 0.8041808605194092,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.8046075105667114,
+    "reported_target_acc": 0.8046075085324232
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.05085393413901329,
+      "different_class_within_domain_cosine_distance": 0.8067191243171692,
+      "distance_ratio": 0.06303796774628041,
+      "linear_cka_vs_pretrained": 0.3175176680088043,
+      "balanced_domain_probe_acc": 0.9166666865348816,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9784431137724551
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9767759442329407,
+        "alpha": 0.1,
+        "target_acc": 0.9832335114479065,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9756390651067098,
+        "alpha": 0.001,
+        "target_acc": 0.9832335114479065,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.985029935836792,
+    "reported_target_acc": 0.9850299401197605
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.049777768552303314,
+      "different_class_within_domain_cosine_distance": 0.8036065697669983,
+      "distance_ratio": 0.06194295868777694,
+      "linear_cka_vs_pretrained": 0.31647345423698425,
+      "balanced_domain_probe_acc": 0.9285714030265808,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9790419161676647
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.972618838151296,
+        "alpha": 1.0,
+        "target_acc": 0.9820359349250793,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.972618838151296,
+        "alpha": 0.1,
+        "target_acc": 0.9820359349250793,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9826347231864929,
+    "reported_target_acc": 0.9826347305389221
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 2,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.0500534288585186,
+      "different_class_within_domain_cosine_distance": 0.8016032576560974,
+      "distance_ratio": 0.06244164850935829,
+      "linear_cka_vs_pretrained": 0.320851594209671,
+      "balanced_domain_probe_acc": 0.9285714030265808,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9772455089820359
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9775224725405375,
+        "alpha": 1.0,
+        "target_acc": 0.9838323593139648,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9775224725405375,
+        "alpha": 1.0,
+        "target_acc": 0.9838323593139648,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.9844311475753784,
+    "reported_target_acc": 0.9844311377245509
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 100,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.06313282996416092,
+      "different_class_within_domain_cosine_distance": 0.6506415009498596,
+      "distance_ratio": 0.09703166778017458,
+      "linear_cka_vs_pretrained": 0.3354165852069855,
+      "balanced_domain_probe_acc": 0.8766233921051025,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.8037668617968949
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9827315211296082,
+        "alpha": 0.1,
+        "target_acc": 0.8012216687202454,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9827315211296082,
+        "alpha": 0.001,
+        "target_acc": 0.8019852638244629,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7668617963790894,
+    "reported_target_acc": 0.7668617968948842
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 101,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.0688757598400116,
+      "different_class_within_domain_cosine_distance": 0.689589262008667,
+      "distance_ratio": 0.09987939725074481,
+      "linear_cka_vs_pretrained": 0.3360060155391693,
+      "balanced_domain_probe_acc": 0.8474025726318359,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.7994400610842454
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9841784834861755,
+        "alpha": 0.1,
+        "target_acc": 0.8012216687202454,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9833634893099467,
+        "alpha": 0.001,
+        "target_acc": 0.7979129552841187,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7935861349105835,
+    "reported_target_acc": 0.7935861542377195
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "finetuned",
+    "target": 3,
+    "seed": 102,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.06525646150112152,
+      "different_class_within_domain_cosine_distance": 0.6388495564460754,
+      "distance_ratio": 0.10214683698638483,
+      "linear_cka_vs_pretrained": 0.3435431122779846,
+      "balanced_domain_probe_acc": 0.8733766078948975,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.8027487910409773
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9818362593650818,
+        "alpha": 100.0,
+        "target_acc": 0.8103843331336975,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9818362593650818,
+        "alpha": 100.0,
+        "target_acc": 0.8103843331336975,
+        "pca_dimensions": 256
+      }
+    },
+    "checkpoint_target_acc": 0.7963858246803284,
+    "reported_target_acc": 0.7963858488164928
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "pretrained",
+    "target": 0,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2048,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.4571717083454132,
+      "different_class_within_domain_cosine_distance": 0.32680070400238037,
+      "distance_ratio": 1.3989312224433985,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9801587462425232,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.63134765625
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9075575669606527,
+        "alpha": 0.1,
+        "target_acc": 0.7236328125,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.878213624159495,
+        "alpha": 0.1,
+        "target_acc": 0.75048828125,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "pretrained",
+    "target": 1,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 2344,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.4584614038467407,
+      "different_class_within_domain_cosine_distance": 0.31615734100341797,
+      "distance_ratio": 1.4501051988597802,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9523809552192688,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.4296075085324232
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9184777537981669,
+        "alpha": 0.1,
+        "target_acc": 0.6075085401535034,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8957894444465637,
+        "alpha": 1.0,
+        "target_acc": 0.592576801776886,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "pretrained",
+    "target": 2,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 1670,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.45951658487319946,
+      "different_class_within_domain_cosine_distance": 0.3261159360408783,
+      "distance_ratio": 1.4090589698002356,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9682539701461792,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 18,
+      "cross_domain_1nn_acc": 0.9640718562874252
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.8873522281646729,
+        "alpha": 0.1,
+        "target_acc": 0.9712575078010559,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.8459723194440206,
+        "alpha": 0.01,
+        "target_acc": 0.9784430861473083,
+        "pca_dimensions": 256
+      }
+    }
+  },
+  {
+    "backbone": "resnet50_augmix",
+    "phase": "pretrained",
+    "target": 3,
+    "seed": null,
+    "smoke": false,
+    "probe_type": "L2-normalized ridge least-squares linear classifier",
+    "target_samples": 3929,
+    "geometry": {
+      "same_class_cross_domain_cosine_distance": 0.45675569772720337,
+      "different_class_within_domain_cosine_distance": 0.31542715430259705,
+      "distance_ratio": 1.4480544604255168,
+      "linear_cka_vs_pretrained": 1.0,
+      "balanced_domain_probe_acc": 0.9707792401313782,
+      "domain_chance": 0.25,
+      "samples_per_class_domain": 22,
+      "cross_domain_1nn_acc": 0.31254772206668363
+    },
+    "probes": {
+      "full": {
+        "source_val": 0.9420251051584879,
+        "alpha": 0.1,
+        "target_acc": 0.4980911314487457,
+        "pca_dimensions": null
+      },
+      "full_pca256": {
+        "source_val": 0.9165248274803162,
+        "alpha": 1.0,
+        "target_acc": 0.5097989439964294,
+        "pca_dimensions": 256
+      }
+    }
+  }
+]
