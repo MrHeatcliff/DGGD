@@ -49,7 +49,7 @@ def main():
         dump(dst/'completed_runs.json', records)
         with (dst/'completed_runs.csv').open('w') as f:
             cols=[field,'domain','seed','target_acc','source_val','best_step','task_id']
-            w=csv.DictWriter(f, fieldnames=cols);w.writeheader()
+            w=csv.DictWriter(f, fieldnames=cols, lineterminator="\n");w.writeheader()
             for r in records:
                 t,v=r['task'],r['result']
                 w.writerow({field:t[field],'domain':domains[t['env']],'seed':t['seed'],
