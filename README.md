@@ -1,3 +1,13 @@
+# DGGD — Domain Generalization Experiments
+
+PACS results and reproducible experiment code built on DomainBed.
+
+**[Experiment results, tuning parameters, and protocol notes](results/pacs/README.md)** · [Environment setup](DOMAIN_GEN_SETUP.md)
+
+The upstream DomainBed README follows; its historical results are separate from this repository's PACS snapshot.
+
+---
+
 # Welcome to DomainBed
 
 DomainBed is a PyTorch suite containing benchmark datasets and algorithms for domain generalization, as introduced in [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434).

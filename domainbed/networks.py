@@ -7,6 +7,7 @@ import torchvision.models
 
 from domainbed.lib import wide_resnet
 import copy
+import os
 
 import timm
 
@@ -74,7 +75,10 @@ class DinoV2(torch.nn.Module):
     def __init__(self,input_shape, hparams):
         super(DinoV2, self).__init__()
 
-        self.network = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
+        repo = hparams.get('dinov2_repo', 'facebookresearch/dinov2')
+        self.network = torch.hub.load(
+            repo, 'dinov2_vitb14',
+            source='local' if os.path.isdir(repo) else 'github')
         self.n_outputs =  5 * 768
 
         nc = input_shape[0]

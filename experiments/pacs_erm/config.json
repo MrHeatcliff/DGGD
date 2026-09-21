@@ -1,0 +1,21 @@
+{
+  "name": "pacs_erm_optuna",
+  "max_gpus": 8,
+  "backbones": ["dinov2", "resnet18", "resnet50", "resnet50_augmix"],
+  "domains": ["art_painting", "cartoon", "photo", "sketch"],
+  "search_trials_per_domain": 40,
+  "steps": 5000,
+  "eval_every": 250,
+  "source_holdout_fraction": 0.2,
+  "split_seed": 0,
+  "search_seed": 0,
+  "confirm_top_k": 3,
+  "confirm_seeds": [1, 2],
+  "final_seeds": [100, 101, 102],
+  "sampler_seed": 20260919,
+  "max_task_attempts": 3,
+  "pools": [
+    {"partition": "gpu_collaborative", "gpus": 4, "time": "2-00:00:00"},
+    {"partition": "gpu_container", "gpus": 4, "time": "3-00:00:00"}
+  ]
+}

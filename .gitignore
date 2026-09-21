@@ -3,3 +3,8 @@ domainbed/facebook.py
 
 domainbed/data/*
 train_output/*
+.venv/
+setup_logs/
+outputs/
+
+.cache/

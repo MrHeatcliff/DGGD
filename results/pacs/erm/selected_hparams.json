@@ -1,0 +1,850 @@
+{
+  "dinov2_env0": {
+    "trial_number": 28,
+    "source_val_seeds": [
+      0.9941922078864754,
+      0.9919184495617617,
+      0.9931942038944594
+    ],
+    "mean": 0.9931016204475656,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 3.809781093538701e-06,
+      "weight_decay": 1.6982902439421305e-05,
+      "batch_size": 64,
+      "vit_dropout": 0.2,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 28,
+        "source_val_seeds": [
+          0.9941922078864754,
+          0.9919184495617617,
+          0.9931942038944594
+        ],
+        "mean": 0.9931016204475656
+      },
+      {
+        "trial_number": 14,
+        "source_val_seeds": [
+          0.9934799571742247,
+          0.992767706461974,
+          0.9912080678318903
+        ],
+        "mean": 0.9924852438226962
+      },
+      {
+        "trial_number": 35,
+        "source_val_seeds": [
+          0.992918322536157,
+          0.9917814433738,
+          0.9939045856243309
+        ],
+        "mean": 0.9928681171780959
+      }
+    ]
+  },
+  "dinov2_env1": {
+    "trial_number": 20,
+    "source_val_seeds": [
+      0.9944798301486198,
+      0.9932402057734935,
+      0.9927813163481952
+    ],
+    "mean": 0.9935004507567694,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 3.990577215967339e-06,
+      "weight_decay": 2.815096640450163e-06,
+      "batch_size": 32,
+      "vit_dropout": 0.1,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 20,
+        "source_val_seeds": [
+          0.9944798301486198,
+          0.9932402057734935,
+          0.9927813163481952
+        ],
+        "mean": 0.9935004507567694
+      },
+      {
+        "trial_number": 21,
+        "source_val_seeds": [
+          0.9944798301486198,
+          0.9919663204231751,
+          0.9932402057734935
+        ],
+        "mean": 0.9932287854484295
+      },
+      {
+        "trial_number": 23,
+        "source_val_seeds": [
+          0.9936648342235997,
+          0.9915759529482607,
+          0.9936305732484078
+        ],
+        "mean": 0.9929571201400894
+      }
+    ]
+  },
+  "dinov2_env2": {
+    "trial_number": 32,
+    "source_val_seeds": [
+      0.9946510973117736,
+      0.9905418189986737,
+      0.9930895896993105
+    ],
+    "mean": 0.9927608353365859,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.1192015849337554e-06,
+      "weight_decay": 0.00018079226772859763,
+      "batch_size": 32,
+      "vit_dropout": 0.1,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 32,
+        "source_val_seeds": [
+          0.9946510973117736,
+          0.9905418189986737,
+          0.9930895896993105
+        ],
+        "mean": 0.9927608353365859
+      },
+      {
+        "trial_number": 30,
+        "source_val_seeds": [
+          0.9941922078864754,
+          0.9905760799738653,
+          0.9915759529482607
+        ],
+        "mean": 0.9921147469362005
+      },
+      {
+        "trial_number": 35,
+        "source_val_seeds": [
+          0.9930553287241185,
+          0.9900144453357976,
+          0.9925279550612428
+        ],
+        "mean": 0.991865909707053
+      }
+    ]
+  },
+  "dinov2_env3": {
+    "trial_number": 2,
+    "source_val_seeds": [
+      1.0,
+      0.9991850040749797,
+      0.9992877492877493
+    ],
+    "mean": 0.9994909177875764,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 3.235339414079059e-06,
+      "weight_decay": 6.966208152371802e-05,
+      "batch_size": 32,
+      "vit_dropout": 0.5,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 2,
+        "source_val_seeds": [
+          1.0,
+          0.9991850040749797,
+          0.9992877492877493
+        ],
+        "mean": 0.9994909177875764
+      },
+      {
+        "trial_number": 4,
+        "source_val_seeds": [
+          1.0,
+          0.9985754985754985,
+          0.9992877492877493
+        ],
+        "mean": 0.9992877492877493
+      },
+      {
+        "trial_number": 7,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.9985754985754985,
+          0.9992877492877493
+        ],
+        "mean": 0.9990503323836658
+      }
+    ]
+  },
+  "resnet18_env0": {
+    "trial_number": 16,
+    "source_val_seeds": [
+      0.9700258582405118,
+      0.9644723346599848,
+      0.9658850951806442
+    ],
+    "mean": 0.9667944293603803,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": true,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 7.12865445037645e-05,
+      "weight_decay": 1.3591177481194847e-05,
+      "batch_size": 64,
+      "resnet_dropout": 0.1,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 4,
+        "source_val_seeds": [
+          0.970880722087862,
+          0.9630595741393254,
+          0.9639341818296012
+        ],
+        "mean": 0.9659581593522629
+      },
+      {
+        "trial_number": 16,
+        "source_val_seeds": [
+          0.9700258582405118,
+          0.9644723346599848,
+          0.9658850951806442
+        ],
+        "mean": 0.9667944293603803
+      },
+      {
+        "trial_number": 23,
+        "source_val_seeds": [
+          0.9690297232308751,
+          0.9637755628163348,
+          0.9669084499627235
+        ],
+        "mean": 0.9665712453366445
+      }
+    ]
+  },
+  "resnet18_env1": {
+    "trial_number": 26,
+    "source_val_seeds": [
+      0.9660757845186708,
+      0.9651120415018468,
+      0.9583991564004192
+    ],
+    "mean": 0.963195660806979,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": true,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.411214378008453e-05,
+      "weight_decay": 0.007234282516752672,
+      "batch_size": 32,
+      "resnet_dropout": 0.0,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 26,
+        "source_val_seeds": [
+          0.9660757845186708,
+          0.9651120415018468,
+          0.9583991564004192
+        ],
+        "mean": 0.963195660806979
+      },
+      {
+        "trial_number": 11,
+        "source_val_seeds": [
+          0.9623569113932912,
+          0.9636307967436096,
+          0.9611416383590877
+        ],
+        "mean": 0.9623764488319962
+      },
+      {
+        "trial_number": 10,
+        "source_val_seeds": [
+          0.9622325156424104,
+          0.960429425359643,
+          0.9605682628171778
+        ],
+        "mean": 0.9610767346064103
+      }
+    ]
+  },
+  "resnet18_env2": {
+    "trial_number": 23,
+    "source_val_seeds": [
+      0.9577981808495878,
+      0.9612294317128228,
+      0.961530701573995
+    ],
+    "mean": 0.9601861047121352,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": true,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 3.353196026574618e-05,
+      "weight_decay": 1.0417447609320994e-05,
+      "batch_size": 32,
+      "resnet_dropout": 0.2,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 24,
+        "source_val_seeds": [
+          0.9599213231001187,
+          0.9598870621249267,
+          0.9567776944990282
+        ],
+        "mean": 0.9588620265746912
+      },
+      {
+        "trial_number": 23,
+        "source_val_seeds": [
+          0.9577981808495878,
+          0.9612294317128228,
+          0.961530701573995
+        ],
+        "mean": 0.9601861047121352
+      },
+      {
+        "trial_number": 22,
+        "source_val_seeds": [
+          0.9568804019989917,
+          0.9589692832743305,
+          0.9593118176006378
+        ],
+        "mean": 0.9583871676246534
+      }
+    ]
+  },
+  "resnet18_env3": {
+    "trial_number": 35,
+    "source_val_seeds": [
+      0.9671310420765057,
+      0.9612880272514549,
+      0.9642397753132275
+    ],
+    "mean": 0.964219614880396,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": true,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.948896088347207e-05,
+      "weight_decay": 4.004982156940678e-05,
+      "batch_size": 16,
+      "resnet_dropout": 0.3,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 35,
+        "source_val_seeds": [
+          0.9671310420765057,
+          0.9612880272514549,
+          0.9642397753132275
+        ],
+        "mean": 0.964219614880396
+      },
+      {
+        "trial_number": 26,
+        "source_val_seeds": [
+          0.9660105113159884,
+          0.9602322427637567,
+          0.9647535013770757
+        ],
+        "mean": 0.9636654184856069
+      },
+      {
+        "trial_number": 8,
+        "source_val_seeds": [
+          0.9659500300174941,
+          0.962205768389245,
+          0.9641370301004577
+        ],
+        "mean": 0.964097609502399
+      }
+    ]
+  },
+  "resnet50_env0": {
+    "trial_number": 29,
+    "source_val_seeds": [
+      0.9777180029401701,
+      0.9765848617425719,
+      0.9767199989481541
+    ],
+    "mean": 0.9770076212102987,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.596817923970955e-05,
+      "weight_decay": 0.007522200279012647,
+      "batch_size": 32,
+      "resnet_dropout": 0.0,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 15,
+        "source_val_seeds": [
+          0.9779938842984727,
+          0.9750097442438874,
+          0.976870615022337
+        ],
+        "mean": 0.9766247478548991
+      },
+      {
+        "trial_number": 29,
+        "source_val_seeds": [
+          0.9777180029401701,
+          0.9765848617425719,
+          0.9767199989481541
+        ],
+        "mean": 0.9770076212102987
+      },
+      {
+        "trial_number": 23,
+        "source_val_seeds": [
+          0.9772952434724432,
+          0.9762854985765852,
+          0.9751622293004498
+        ],
+        "mean": 0.9762476571164928
+      }
+    ]
+  },
+  "resnet50_env1": {
+    "trial_number": 11,
+    "source_val_seeds": [
+      0.9732132980702044,
+      0.9718005752623512,
+      0.9737181516617303
+    ],
+    "mean": 0.9729106749980952,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.4013033152880253e-05,
+      "weight_decay": 3.891777799151284e-07,
+      "batch_size": 64,
+      "resnet_dropout": 0.3,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 3,
+        "source_val_seeds": [
+          0.9754166654621549,
+          0.9702751598946532,
+          0.9720538988364976
+        ],
+        "mean": 0.9725819080644352
+      },
+      {
+        "trial_number": 11,
+        "source_val_seeds": [
+          0.9732132980702044,
+          0.9718005752623512,
+          0.9737181516617303
+        ],
+        "mean": 0.9729106749980952
+      },
+      {
+        "trial_number": 37,
+        "source_val_seeds": [
+          0.9731447761198204,
+          0.9705167802777638,
+          0.9733620451620081
+        ],
+        "mean": 0.9723412005198641
+      }
+    ]
+  },
+  "resnet50_env2": {
+    "trial_number": 27,
+    "source_val_seeds": [
+      0.9721257240248722,
+      0.9684068131866864,
+      0.9713792123374295
+    ],
+    "mean": 0.9706372498496627,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.5876192543216523e-05,
+      "weight_decay": 0.0005856501820542705,
+      "batch_size": 64,
+      "resnet_dropout": 0.5,
+      "freeze_bn": true
+    },
+    "candidates": [
+      {
+        "trial_number": 27,
+        "source_val_seeds": [
+          0.9721257240248722,
+          0.9684068131866864,
+          0.9713792123374295
+        ],
+        "mean": 0.9706372498496627
+      },
+      {
+        "trial_number": 37,
+        "source_val_seeds": [
+          0.9690848406365514,
+          0.9659482155254039,
+          0.9747898498245
+        ],
+        "mean": 0.9699409686621517
+      },
+      {
+        "trial_number": 17,
+        "source_val_seeds": [
+          0.968543819374648,
+          0.9685231682856775,
+          0.9700025817743413
+        ],
+        "mean": 0.9690231898115557
+      }
+    ]
+  },
+  "resnet50_env3": {
+    "trial_number": 28,
+    "source_val_seeds": [
+      0.9808960433676771,
+      0.9792885338761801,
+      0.9760510325346424
+    ],
+    "mean": 0.9787452032594999,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.91299455816508e-05,
+      "weight_decay": 0.0003682047996900918,
+      "batch_size": 32,
+      "resnet_dropout": 0.2,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 28,
+        "source_val_seeds": [
+          0.9808960433676771,
+          0.9792885338761801,
+          0.9760510325346424
+        ],
+        "mean": 0.9787452032594999
+      },
+      {
+        "trial_number": 17,
+        "source_val_seeds": [
+          0.9791857886634104,
+          0.9778415500931349,
+          0.9763747847543581
+        ],
+        "mean": 0.9778007078369678
+      },
+      {
+        "trial_number": 30,
+        "source_val_seeds": [
+          0.9791857886634104,
+          0.977372788746374,
+          0.9755217898893872
+        ],
+        "mean": 0.9773601224330571
+      }
+    ]
+  },
+  "resnet50_augmix_env0": {
+    "trial_number": 16,
+    "source_val_seeds": [
+      0.9829641604156268,
+      0.9812539057113602,
+      0.984386792857749
+    ],
+    "mean": 0.9828682863282454,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": true,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.5227325440486634e-05,
+      "weight_decay": 1.89109240426495e-05,
+      "batch_size": 32,
+      "resnet_dropout": 0.2,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 16,
+        "source_val_seeds": [
+          0.9829641604156268,
+          0.9812539057113602,
+          0.984386792857749
+        ],
+        "mean": 0.9828682863282454
+      },
+      {
+        "trial_number": 26,
+        "source_val_seeds": [
+          0.9824006567951798,
+          0.9799800203610417,
+          0.982813544341444
+        ],
+        "mean": 0.9817314071658885
+      },
+      {
+        "trial_number": 2,
+        "source_val_seeds": [
+          0.9816785341614663,
+          0.9814045217855432,
+          0.9816785341614663
+        ],
+        "mean": 0.9815871967028252
+      }
+    ]
+  },
+  "resnet50_augmix_env1": {
+    "trial_number": 24,
+    "source_val_seeds": [
+      0.9802020645299345,
+      0.9781817052049795,
+      0.9783890646128981
+    ],
+    "mean": 0.9789242781159374,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": true,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 7.07105896850905e-06,
+      "weight_decay": 1.719888844127246e-07,
+      "batch_size": 64,
+      "resnet_dropout": 0.2,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 26,
+        "source_val_seeds": [
+          0.9812929418132573,
+          0.9722152940781884,
+          0.975978337813029
+        ],
+        "mean": 0.9764955245681582
+      },
+      {
+        "trial_number": 9,
+        "source_val_seeds": [
+          0.9808584037288822,
+          0.9762199581961394,
+          0.9767248117876655
+        ],
+        "mean": 0.9779343912375623
+      },
+      {
+        "trial_number": 24,
+        "source_val_seeds": [
+          0.9802020645299345,
+          0.9781817052049795,
+          0.9783890646128981
+        ],
+        "mean": 0.9789242781159374
+      }
+    ]
+  },
+  "resnet50_augmix_env2": {
+    "trial_number": 37,
+    "source_val_seeds": [
+      0.9787620842368323,
+      0.9737557158749128,
+      0.9749268560124618
+    ],
+    "mean": 0.9758148853747356,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": true,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.9068903333778433e-05,
+      "weight_decay": 3.406212407991254e-06,
+      "batch_size": 64,
+      "resnet_dropout": 0.5,
+      "freeze_bn": false
+    },
+    "candidates": [
+      {
+        "trial_number": 37,
+        "source_val_seeds": [
+          0.9787620842368323,
+          0.9737557158749128,
+          0.9749268560124618
+        ],
+        "mean": 0.9758148853747356
+      },
+      {
+        "trial_number": 24,
+        "source_val_seeds": [
+          0.9786935622864484,
+          0.9746049727751253,
+          0.9740911712856647
+        ],
+        "mean": 0.9757965687824127
+      },
+      {
+        "trial_number": 23,
+        "source_val_seeds": [
+          0.9762828354865792,
+          0.9714134355998153,
+          0.9759266912740507
+        ],
+        "mean": 0.9745409874534818
+      }
+    ]
+  },
+  "resnet50_augmix_env3": {
+    "trial_number": 30,
+    "source_val_seeds": [
+      0.9851765134183182,
+      0.9804117654395094,
+      0.9850737682055487
+    ],
+    "mean": 0.9835540156877921,
+    "hparams": {
+      "vit": false,
+      "dinov2": false,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": true,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.499025405809537e-05,
+      "weight_decay": 2.2985541425328552e-05,
+      "batch_size": 64,
+      "resnet_dropout": 0.5,
+      "freeze_bn": true
+    },
+    "candidates": [
+      {
+        "trial_number": 30,
+        "source_val_seeds": [
+          0.9851765134183182,
+          0.9804117654395094,
+          0.9850737682055487
+        ],
+        "mean": 0.9835540156877921
+      },
+      {
+        "trial_number": 13,
+        "source_val_seeds": [
+          0.9836492667810472,
+          0.9824077734235415,
+          0.9829370160687966
+        ],
+        "mean": 0.9829980187577951
+      },
+      {
+        "trial_number": 20,
+        "source_val_seeds": [
+          0.9831580230757426,
+          0.982122020143776,
+          0.9833410311427383
+        ],
+        "mean": 0.9828736914540857
+      }
+    ]
+  }
+}

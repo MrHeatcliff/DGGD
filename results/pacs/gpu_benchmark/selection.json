@@ -1,0 +1,17 @@
+{
+  "ERMPlusPlus": {
+    "jobs_per_gpu": 4,
+    "updates_per_second": 17.364733849388735,
+    "speedup_vs_single_no_mps": 1.8194095401606913
+  },
+  "IGA": {
+    "jobs_per_gpu": 4,
+    "updates_per_second": 3.054023201500555,
+    "speedup_vs_single_no_mps": 1.6113245562539211
+  },
+  "RDM": {
+    "jobs_per_gpu": 4,
+    "updates_per_second": 9.147325783940152,
+    "speedup_vs_single_no_mps": 2.5507021905457
+  }
+}
