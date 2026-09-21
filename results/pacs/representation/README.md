@@ -16,3 +16,12 @@ Post-hoc analysis; fixed ERM checkpoints, no target-based model selection. Ridge
 Lower distance ratio suggests closer same-class cross-domain centroids relative to different classes. Lower domain accuracy is not sufficient evidence of good representations. CKA measures change, not quality. Ablation heads are refitted on fixed features; this does not retrain each feature variant end-to-end. Target labels must not be fed back into checkpoint selection.
 
 Detailed results, domain/seed values and DINOv2 CLS/patch ablations: all_results.json.
+
+## Interpretation
+
+- Under this source-selected ridge-probe protocol, pretrained DINOv2 reaches 95.43% average target accuracy, versus 65.65–70.01% for pretrained ResNets. After fine-tuning and refitting a diagnostic head, DINOv2 reaches 95.68% and ResNets 81.37–86.27%. This supports a large pre-existing representation advantage; ridge-probe scores are not the original ERM head results.
+- Matching feature dimension at PCA-256 does not remove the gap. Dimensionality alone therefore does not explain it under this protocol.
+- DINOv2's domain probe accuracy remains very high (98.26% after fine-tuning), higher than the ResNets. The measurements do **not** support the simple claim that DINOv2 succeeds by erasing domain information. Label information can transfer well while domain information remains decodable.
+- The centroid distance ratio is smaller for fine-tuned ResNets than DINOv2, despite worse target classification. This aggregate geometry statistic alone does not rank representation quality reliably here.
+- DINOv2's CKA to its pretrained representation is higher than ResNet's after fine-tuning. This indicates greater measured stability on the sampled images, not proof that learning rate or architecture caused the result.
+- Architecture, pretraining dataset, objective, model size, and optimization are confounded. No causal attribution to any one factor is justified by these diagnostics alone. All target-label analyses are post-hoc and do not alter the fixed benchmark results.
