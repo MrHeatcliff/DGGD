@@ -1,18 +1,15 @@
-# Checkpoint export — upload blocked by token permissions
+# Public checkpoint export
 
-Prepared destination: https://huggingface.co/lucaznguyenofficial/DGGD-checkpoints
+Repository: https://huggingface.co/datTrantien17/DGGD-checkpoints
 
-**The checkpoints have not been uploaded.** The current Hugging Face token authenticates as `lucaznguyenofficial`, but repository creation returned HTTP 403 (no write/create permission). The destination repo is not confirmed to exist. No `verified.json` is present.
+Upload is in progress. Expected: 360 completed final checkpoints, 36.67 GiB. `manifest.json` lists sizes and SHA256 hashes. Upload is fully verified only when `verified.json` exists.
 
-The local export contains **360 completed final checkpoints, 36.67 GiB**. [manifest.json](manifest.json) lists every file, SHA256, size, backbone/algorithm, target domain, seed, checkpoint step, validation score and target accuracy. It includes 48 tuned ERM checkpoints and 312 checkpoints for 26 other algorithms. Intermediate tuning, incomplete and smoke checkpoints are excluded.
+Includes 48 tuned ERM checkpoints and 312 final checkpoints for 26 other algorithms. Intermediate Optuna, smoke and incomplete checkpoints are excluded.
 
-## Resume publication
-
-In the experiment workspace, authenticate interactively with an appropriately scoped write token (do not put the token into source code or chat):
+Authentication is isolated to this workspace using `.cache/hf-publish` (ignored by Git, directory mode 0700, token mode 0600). Global HF credentials and Git credentials are not modified. Launch or resume:
 
 ```bash
-.venv/bin/hf auth login --force --no-add-to-git-credential
-.venv/bin/python scripts/publish_checkpoints.py --repo lucaznguyenofficial/DGGD-checkpoints
+bash scripts/publish_checkpoints_local.sh
 ```
 
-The publisher stages files using hard links, creates a public model repository, uploads resumably with four workers, then checks all 360 remote sizes and LFS SHA256 values. It writes `verified.json` only after verification succeeds. If a different account is used, change the repo namespace accordingly. Checkpoints remain safely stored locally while access is fixed.
+The wrapper sets repository-local HF_HOME and clears inherited token environment overrides. Never put tokens in code, commits or logs. A dedicated cache separates configuration but is not a security boundary against processes running as the same operating-system user.

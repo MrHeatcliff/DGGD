@@ -14,7 +14,7 @@ The upstream DomainBed README follows; its historical results are separate from 
 - [Selected ERM hyperparameters](results/pacs/erm/hyperparameters.md)
 - [26 completed algorithms](results/pacs/algorithms/README.md)
 - [DINOv2 vs ResNet representation analysis](results/pacs/representation/README.md)
-- [Public checkpoint repository](https://huggingface.co/lucaznguyenofficial/DGGD-checkpoints) — upload/verification status in [checkpoint notes](results/pacs/checkpoints/README.md).
+- [Public checkpoint repository](https://huggingface.co/datTrantien17/DGGD-checkpoints) — upload/verification status in [checkpoint notes](results/pacs/checkpoints/README.md).
 
 # Welcome to DomainBed
 
