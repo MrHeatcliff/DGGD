@@ -2,7 +2,7 @@
 
 Repository: https://huggingface.co/datTrantien17/DGGD-checkpoints
 
-Upload is in progress. Expected: 360 completed final checkpoints, 36.67 GiB. `manifest.json` lists sizes and SHA256 hashes. Upload is fully verified only when `verified.json` exists.
+**Upload complete: all 360 final checkpoints (36.67 GiB) verified against remote file sizes and SHA256 hashes.** See [verified.json](verified.json) for the immutable verified revision and [manifest.json](manifest.json) for per-checkpoint metadata.
 
 Includes 48 tuned ERM checkpoints and 312 final checkpoints for 26 other algorithms. Intermediate Optuna, smoke and incomplete checkpoints are excluded.
 
