@@ -1,6 +1,6 @@
 {
   "name": "pacs_methods_optuna",
-  "max_gpus": 8,
+  "max_gpus": 4,
   "backbones": [
     "CORAL--dinov2",
     "MMD--dinov2",
@@ -47,17 +47,6 @@
       "partition": "gpu_collaborative",
       "gpus": 4,
       "time": "2-00:00:00"
-    },
-    {
-      "partition": "gpu_junior",
-      "gpus": 2,
-      "time": "1-00:00:00"
-    },
-    {
-      "partition": "gpu_general",
-      "gpus": 2,
-      "time": "2-00:00:00",
-      "nodelist": "gpu07"
     }
   ],
   "search_trials_by_pair": {

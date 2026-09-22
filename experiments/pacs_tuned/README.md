@@ -62,3 +62,7 @@ Launch/resume (with cached weights):
 ```
 
 The controller owns an exclusive lock and persisted Optuna state. STOP halts the campaign and releases only its own allocations. The scheduler can replace time-limited pools; completed tasks are preserved, interrupted ones restart from their original seed and archive previous artifacts.
+
+## Resource reduction — 2026-09-22 10:25 UTC+7
+
+At the user's request, the active campaign is now limited to **one 4-GPU allocation**: job 5794 on gpu09 / gpu_collaborative. Allocations 5797 and 5798 were cancelled. The persisted configuration now has max_gpus=4 and only the collaborative pool, so automatic replacement cannot recreate the two removed pools. Four interrupted trials were archived and requeued with their original Optuna trial IDs and seeds; completed results and four running tasks on 5794 were retained. Historical 8-GPU launch details above describe the previous configuration.
