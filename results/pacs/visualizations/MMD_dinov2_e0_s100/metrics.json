@@ -1,0 +1,27 @@
+{
+  "method": "MMD",
+  "backbone": "dinov2",
+  "target": "art_painting",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_methods_optuna/runs/MMD--dinov2_e0_final_c058_s100/best.pt",
+  "original_target_acc": 0.9765625,
+  "fp32_head_on_cached_feature_target_acc": 0.9765625,
+  "pca_variance_explained": [
+    0.13000132143497467,
+    0.10725375264883041
+  ],
+  "slice_full_head_target_agreement": 0.42236328125,
+  "slice_full_head_source_val_agreement": 0.5173282923755513,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2048,
+  "directory": "MMD_dinov2_e0_s100"
+}

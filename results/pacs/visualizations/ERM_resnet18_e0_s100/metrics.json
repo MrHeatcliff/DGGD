@@ -1,0 +1,27 @@
+{
+  "method": "ERM",
+  "backbone": "resnet18",
+  "target": "art_painting",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_erm_optuna/runs/resnet18_e0_final_c016_s100/best.pt",
+  "original_target_acc": 0.80126953125,
+  "fp32_head_on_cached_feature_target_acc": 0.80078125,
+  "pca_variance_explained": [
+    0.22646695375442505,
+    0.15981630980968475
+  ],
+  "slice_full_head_target_agreement": 0.47607421875,
+  "slice_full_head_source_val_agreement": 0.5500945179584121,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2048,
+  "directory": "ERM_resnet18_e0_s100"
+}

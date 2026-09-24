@@ -1,0 +1,13 @@
+backbone,domain,env,seed,target_acc,source_val,best_step,target_samples,artifact_dir
+CORAL--dinov2,photo,2,102,0.9952095808383233,0.9908979632112019,4250,1670,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e2_final_c050_s102
+CORAL--dinov2,sketch,3,100,0.8918299821837617,0.9992877492877493,4500,3929,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e3_final_c022_s100
+CORAL--dinov2,cartoon,1,100,0.9313139931740614,0.9919663204231751,2000,2344,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e1_final_c045_s100
+CORAL--dinov2,sketch,3,101,0.8900483583609061,0.9992877492877493,1750,3929,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e3_final_c022_s101
+CORAL--dinov2,art_painting,0,100,0.94873046875,0.9912080678318903,4000,2048,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e0_final_c044_s100
+CORAL--dinov2,sketch,3,102,0.8676508017307203,0.998472753362729,4000,3929,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e3_final_c022_s102
+CORAL--dinov2,art_painting,0,101,0.9736328125,0.9919184495617617,2250,2048,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e0_final_c044_s101
+CORAL--dinov2,art_painting,0,102,0.97412109375,0.9919203185441411,3250,2048,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e0_final_c044_s102
+CORAL--dinov2,cartoon,1,102,0.947098976109215,0.992425209848473,4750,2344,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e1_final_c045_s102
+CORAL--dinov2,photo,2,100,0.9988023952095808,0.9904048128107119,1250,1670,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e2_final_c050_s100
+CORAL--dinov2,photo,2,101,0.9988023952095808,0.9909664474487797,1250,1670,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e2_final_c050_s101
+CORAL--dinov2,cartoon,1,101,0.9483788395904437,0.9928155773233872,2750,2344,outputs/pacs_methods_optuna/runs/CORAL--dinov2_e1_final_c045_s101

@@ -10,6 +10,8 @@ The upstream DomainBed README follows; its historical results are separate from 
 
 ## Latest PACS results
 
+- **[Representation & decision-boundary visualizations](results/pacs/visualizations/README.md)** — ERM/CORAL/MMD, PCA, t-SNE, margin distributions, PNG/PDF and point data.
+- [New tuned CORAL/MMD results](results/pacs/tuned_methods/README.md)
 - [ERM: accuracy by domain and backbone](results/pacs/erm/README.md)
 - [Selected ERM hyperparameters](results/pacs/erm/hyperparameters.md)
 - [26 completed algorithms](results/pacs/algorithms/README.md)

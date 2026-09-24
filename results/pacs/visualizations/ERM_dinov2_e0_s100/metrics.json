@@ -1,0 +1,27 @@
+{
+  "method": "ERM",
+  "backbone": "dinov2",
+  "target": "art_painting",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_erm_optuna/runs/dinov2_e0_final_c028_s100/best.pt",
+  "original_target_acc": 0.9873046875,
+  "fp32_head_on_cached_feature_target_acc": 0.9873046875,
+  "pca_variance_explained": [
+    0.1554918736219406,
+    0.11527636647224426
+  ],
+  "slice_full_head_target_agreement": 0.46142578125,
+  "slice_full_head_source_val_agreement": 0.5595463137996219,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2048,
+  "directory": "ERM_dinov2_e0_s100"
+}

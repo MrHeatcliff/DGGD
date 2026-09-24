@@ -1,0 +1,27 @@
+{
+  "method": "ERM",
+  "backbone": "resnet50",
+  "target": "sketch",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_erm_optuna/runs/resnet50_e3_final_c028_s100/best.pt",
+  "original_target_acc": 0.7482820055993892,
+  "fp32_head_on_cached_feature_target_acc": 0.7477729702214304,
+  "pca_variance_explained": [
+    0.19601011276245117,
+    0.1714320182800293
+  ],
+  "slice_full_head_target_agreement": 0.20539577500636294,
+  "slice_full_head_source_val_agreement": 0.48554913294797686,
+  "balanced_samples_per_class_domain": 23,
+  "target_count": 3929,
+  "directory": "ERM_resnet50_e3_s100"
+}

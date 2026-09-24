@@ -1,0 +1,13 @@
+backbone,domain,env,seed,target_acc,source_val,best_step,target_samples,artifact_dir
+MMD--dinov2,photo,2,101,0.9994011976047904,0.9901171905485674,2000,1670,outputs/pacs_methods_optuna/runs/MMD--dinov2_e2_final_c008_s101
+MMD--dinov2,cartoon,1,100,0.9552047781569966,0.9928498382985792,3500,2344,outputs/pacs_methods_optuna/runs/MMD--dinov2_e1_final_c045_s100
+MMD--dinov2,photo,2,102,1.0,0.9919663204231751,4500,1670,outputs/pacs_methods_optuna/runs/MMD--dinov2_e2_final_c008_s102
+MMD--dinov2,art_painting,0,102,0.98193359375,0.9910710616439286,1500,2048,outputs/pacs_methods_optuna/runs/MMD--dinov2_e0_final_c058_s102
+MMD--dinov2,photo,2,100,0.9994011976047904,0.9904390737859039,3500,1670,outputs/pacs_methods_optuna/runs/MMD--dinov2_e2_final_c008_s100
+MMD--dinov2,cartoon,1,101,0.939419795221843,0.9944798301486198,3500,2344,outputs/pacs_methods_optuna/runs/MMD--dinov2_e1_final_c045_s101
+MMD--dinov2,art_painting,0,101,0.982421875,0.9920690656359445,1750,2048,outputs/pacs_methods_optuna/runs/MMD--dinov2_e0_final_c058_s101
+MMD--dinov2,sketch,3,101,0.8763044031560193,0.9992877492877493,3250,3929,outputs/pacs_methods_optuna/runs/MMD--dinov2_e3_final_c004_s101
+MMD--dinov2,sketch,3,100,0.8607788241282769,0.9992877492877493,2000,3929,outputs/pacs_methods_optuna/runs/MMD--dinov2_e3_final_c004_s100
+MMD--dinov2,cartoon,1,102,0.9479522184300341,0.9928155773233872,5000,2344,outputs/pacs_methods_optuna/runs/MMD--dinov2_e1_final_c045_s102
+MMD--dinov2,art_painting,0,100,0.9765625,0.9932059447983015,4000,2048,outputs/pacs_methods_optuna/runs/MMD--dinov2_e0_final_c058_s100
+MMD--dinov2,sketch,3,102,0.902519725120896,0.9992877492877493,4750,3929,outputs/pacs_methods_optuna/runs/MMD--dinov2_e3_final_c004_s102

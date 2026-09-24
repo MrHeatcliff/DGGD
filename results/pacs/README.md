@@ -2,6 +2,9 @@
 
 ## Results
 
+- [Representation and original-classifier boundary visualizations](visualizations/README.md)
+- [Tuned CORAL/MMD results — September 24 snapshot](tuned_methods/README.md)
+
 - [Completed representation diagnostics](representation/README.md)
 - [Checkpoint download and verification status](checkpoints/README.md)
 

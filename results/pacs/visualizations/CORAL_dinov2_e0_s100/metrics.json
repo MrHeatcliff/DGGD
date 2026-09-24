@@ -1,0 +1,27 @@
+{
+  "method": "CORAL",
+  "backbone": "dinov2",
+  "target": "art_painting",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_methods_optuna/runs/CORAL--dinov2_e0_final_c044_s100/best.pt",
+  "original_target_acc": 0.94873046875,
+  "fp32_head_on_cached_feature_target_acc": 0.94873046875,
+  "pca_variance_explained": [
+    0.19286146759986877,
+    0.17871738970279694
+  ],
+  "slice_full_head_target_agreement": 0.45703125,
+  "slice_full_head_source_val_agreement": 0.4914933837429111,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2048,
+  "directory": "CORAL_dinov2_e0_s100"
+}

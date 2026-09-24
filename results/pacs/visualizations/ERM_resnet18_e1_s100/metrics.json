@@ -1,0 +1,27 @@
+{
+  "method": "ERM",
+  "backbone": "resnet18",
+  "target": "cartoon",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_erm_optuna/runs/resnet18_e1_final_c026_s100/best.pt",
+  "original_target_acc": 0.7427474402730375,
+  "fp32_head_on_cached_feature_target_acc": 0.742320819112628,
+  "pca_variance_explained": [
+    0.20162852108478546,
+    0.16249139606952667
+  ],
+  "slice_full_head_target_agreement": 0.503839590443686,
+  "slice_full_head_source_val_agreement": 0.6047120418848168,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2344,
+  "directory": "ERM_resnet18_e1_s100"
+}

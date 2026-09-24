@@ -1,0 +1,434 @@
+{
+  "CORAL--dinov2_env0": {
+    "trial_number": 44,
+    "source_val_seeds": [
+      0.9930553287241185,
+      0.9916326962819965,
+      0.9916326962819965
+    ],
+    "mean": 0.9921069070960371,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 6.051203659614071e-06,
+      "weight_decay": 0.0006447276841974566,
+      "batch_size": 64,
+      "vit_dropout": 0.2,
+      "freeze_bn": false,
+      "mmd_gamma": 0.26964767198966255
+    },
+    "candidates": [
+      {
+        "trial_number": 44,
+        "source_val_seeds": [
+          0.9930553287241185,
+          0.9916326962819965,
+          0.9916326962819965
+        ],
+        "mean": 0.9921069070960371
+      },
+      {
+        "trial_number": 6,
+        "source_val_seeds": [
+          0.9930435878202765,
+          0.9904958171196396,
+          0.9920573247321025
+        ],
+        "mean": 0.9918655765573395
+      },
+      {
+        "trial_number": 0,
+        "source_val_seeds": [
+          0.9924936940860508,
+          0.9919184495617617,
+          0.9913450740198518
+        ],
+        "mean": 0.9919190725558882
+      }
+    ]
+  },
+  "CORAL--dinov2_env1": {
+    "trial_number": 45,
+    "source_val_seeds": [
+      0.9936305732484078,
+      0.9932402057734935,
+      0.9932059447983015
+    ],
+    "mean": 0.9933589079400676,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 6.176107629656483e-06,
+      "weight_decay": 1.152430590804096e-05,
+      "batch_size": 64,
+      "vit_dropout": 0.5,
+      "freeze_bn": false,
+      "mmd_gamma": 0.002372080730261323
+    },
+    "candidates": [
+      {
+        "trial_number": 29,
+        "source_val_seeds": [
+          0.9940552016985138,
+          0.9923909488732812,
+          0.9928155773233872
+        ],
+        "mean": 0.9930872426317273
+      },
+      {
+        "trial_number": 52,
+        "source_val_seeds": [
+          0.9936648342235997,
+          0.9928155773233872,
+          0.9919320594479831
+        ],
+        "mean": 0.9928041569983234
+      },
+      {
+        "trial_number": 45,
+        "source_val_seeds": [
+          0.9936305732484078,
+          0.9932402057734935,
+          0.9932059447983015
+        ],
+        "mean": 0.9933589079400676
+      }
+    ]
+  },
+  "CORAL--dinov2_env2": {
+    "trial_number": 50,
+    "source_val_seeds": [
+      0.9920690656359445,
+      0.9921033266111365,
+      0.9916444371858385
+    ],
+    "mean": 0.9919389431443065,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 8.605819945339274e-06,
+      "weight_decay": 3.6532333405864415e-05,
+      "batch_size": 64,
+      "vit_dropout": 0.1,
+      "freeze_bn": false,
+      "mmd_gamma": 0.008042660712085948
+    },
+    "candidates": [
+      {
+        "trial_number": 47,
+        "source_val_seeds": [
+          0.992767706461974,
+          0.9911377146119332,
+          0.9910007084239716
+        ],
+        "mean": 0.991635376499293
+      },
+      {
+        "trial_number": 36,
+        "source_val_seeds": [
+          0.9922403327990983,
+          0.9904390737859039,
+          0.990254196736529
+        ],
+        "mean": 0.9909778677738438
+      },
+      {
+        "trial_number": 50,
+        "source_val_seeds": [
+          0.9920690656359445,
+          0.9921033266111365,
+          0.9916444371858385
+        ],
+        "mean": 0.9919389431443065
+      }
+    ]
+  },
+  "CORAL--dinov2_env3": {
+    "trial_number": 22,
+    "source_val_seeds": [
+      0.9992877492877493,
+      0.9992877492877493,
+      0.9985754985754985
+    ],
+    "mean": 0.9990503323836658,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.169963041990422e-06,
+      "weight_decay": 2.7008508277162685e-05,
+      "batch_size": 16,
+      "vit_dropout": 0.2,
+      "freeze_bn": false,
+      "mmd_gamma": 0.0023029482839190592
+    },
+    "candidates": [
+      {
+        "trial_number": 21,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.9992877492877493,
+          0.9976577574377085
+        ],
+        "mean": 0.9987444186710691
+      },
+      {
+        "trial_number": 22,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.9992877492877493,
+          0.9985754985754985
+        ],
+        "mean": 0.9990503323836658
+      },
+      {
+        "trial_number": 24,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.998472753362729,
+          0.9992877492877493
+        ],
+        "mean": 0.9990160839794092
+      }
+    ]
+  },
+  "MMD--dinov2_env0": {
+    "trial_number": 58,
+    "source_val_seeds": [
+      0.9930553287241185,
+      0.9923566878980892,
+      0.9926307002740123
+    ],
+    "mean": 0.9926809056320733,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 3.166463042152277e-06,
+      "weight_decay": 9.519161538090408e-06,
+      "batch_size": 32,
+      "vit_dropout": 0.2,
+      "freeze_bn": false,
+      "mmd_gamma": 11.858947641888452
+    },
+    "candidates": [
+      {
+        "trial_number": 49,
+        "source_val_seeds": [
+          0.9933312100824211,
+          0.9912198087357323,
+          0.9930553287241185
+        ],
+        "mean": 0.9925354491807573
+      },
+      {
+        "trial_number": 54,
+        "source_val_seeds": [
+          0.9930553287241185,
+          0.9914956900940348,
+          0.9922060718239063
+        ],
+        "mean": 0.9922523635473532
+      },
+      {
+        "trial_number": 58,
+        "source_val_seeds": [
+          0.9930553287241185,
+          0.9923566878980892,
+          0.9926307002740123
+        ],
+        "mean": 0.9926809056320733
+      }
+    ]
+  },
+  "MMD--dinov2_env1": {
+    "trial_number": 45,
+    "source_val_seeds": [
+      0.9949044585987261,
+      0.9945140911238118,
+      0.9932402057734935
+    ],
+    "mean": 0.9942195851653438,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 4.578802076858716e-06,
+      "weight_decay": 4.7541711764066374e-06,
+      "batch_size": 64,
+      "vit_dropout": 0.5,
+      "freeze_bn": false,
+      "mmd_gamma": 0.4748443308765392
+    },
+    "candidates": [
+      {
+        "trial_number": 45,
+        "source_val_seeds": [
+          0.9949044585987261,
+          0.9945140911238118,
+          0.9932402057734935
+        ],
+        "mean": 0.9942195851653438
+      },
+      {
+        "trial_number": 12,
+        "source_val_seeds": [
+          0.9940894626737058,
+          0.9928155773233872,
+          0.9927813163481952
+        ],
+        "mean": 0.9932287854484293
+      },
+      {
+        "trial_number": 19,
+        "source_val_seeds": [
+          0.9936648342235997,
+          0.9911513244981546,
+          0.9906924350728565
+        ],
+        "mean": 0.991836197931537
+      }
+    ]
+  },
+  "MMD--dinov2_env2": {
+    "trial_number": 8,
+    "source_val_seeds": [
+      0.9939045856243309,
+      0.9923909488732812,
+      0.990254196736529
+    ],
+    "mean": 0.9921832437447137,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 1.6698363905769029e-06,
+      "weight_decay": 0.003739486349061451,
+      "batch_size": 32,
+      "vit_dropout": 0.2,
+      "freeze_bn": false,
+      "mmd_gamma": 0.6607465419056979
+    },
+    "candidates": [
+      {
+        "trial_number": 8,
+        "source_val_seeds": [
+          0.9939045856243309,
+          0.9923909488732812,
+          0.990254196736529
+        ],
+        "mean": 0.9921832437447137
+      },
+      {
+        "trial_number": 54,
+        "source_val_seeds": [
+          0.9934799571742247,
+          0.989336455598739,
+          0.9893706788611247
+        ],
+        "mean": 0.9907290305446961
+      },
+      {
+        "trial_number": 22,
+        "source_val_seeds": [
+          0.9930895896993105,
+          0.9901171905485674,
+          0.9910007084239716
+        ],
+        "mean": 0.9914024962239498
+      }
+    ]
+  },
+  "MMD--dinov2_env3": {
+    "trial_number": 4,
+    "source_val_seeds": [
+      0.9992877492877493,
+      0.9992877492877493,
+      0.998472753362729
+    ],
+    "mean": 0.9990160839794092,
+    "hparams": {
+      "vit": true,
+      "dinov2": true,
+      "vit_attn_tune": false,
+      "resnet18": false,
+      "resnet50_augmix": false,
+      "data_augmentation": true,
+      "class_balanced": false,
+      "nonlinear_classifier": false,
+      "lr": 2.9824503730880195e-06,
+      "weight_decay": 2.7229583425085173e-05,
+      "batch_size": 16,
+      "vit_dropout": 0.0,
+      "freeze_bn": false,
+      "mmd_gamma": 2.6023780407336417
+    },
+    "candidates": [
+      {
+        "trial_number": 38,
+        "source_val_seeds": [
+          1.0,
+          0.9978632478632479,
+          0.9985754985754985
+        ],
+        "mean": 0.9988129154795821
+      },
+      {
+        "trial_number": 0,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.9991850040749797,
+          0.998472753362729
+        ],
+        "mean": 0.9989818355751527
+      },
+      {
+        "trial_number": 4,
+        "source_val_seeds": [
+          0.9992877492877493,
+          0.9992877492877493,
+          0.998472753362729
+        ],
+        "mean": 0.9990160839794092
+      }
+    ]
+  }
+}

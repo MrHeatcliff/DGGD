@@ -1,0 +1,27 @@
+{
+  "method": "MMD",
+  "backbone": "dinov2",
+  "target": "cartoon",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_methods_optuna/runs/MMD--dinov2_e1_final_c045_s100/best.pt",
+  "original_target_acc": 0.9552047781569966,
+  "fp32_head_on_cached_feature_target_acc": 0.9552047781569966,
+  "pca_variance_explained": [
+    0.1452256590127945,
+    0.12274926900863647
+  ],
+  "slice_full_head_target_agreement": 0.4522184300341297,
+  "slice_full_head_source_val_agreement": 0.5831151832460733,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 2344,
+  "directory": "MMD_dinov2_e1_s100"
+}

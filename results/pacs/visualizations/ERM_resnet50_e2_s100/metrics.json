@@ -1,0 +1,27 @@
+{
+  "method": "ERM",
+  "backbone": "resnet50",
+  "target": "photo",
+  "seed": 100,
+  "class_order": [
+    "dog",
+    "elephant",
+    "giraffe",
+    "guitar",
+    "horse",
+    "house",
+    "person"
+  ],
+  "checkpoint": "outputs/pacs_erm_optuna/runs/resnet50_e2_final_c027_s100/best.pt",
+  "original_target_acc": 0.9676646706586827,
+  "fp32_head_on_cached_feature_target_acc": 0.9676646706586827,
+  "pca_variance_explained": [
+    0.2321404367685318,
+    0.1838861107826233
+  ],
+  "slice_full_head_target_agreement": 0.4035928143712575,
+  "slice_full_head_source_val_agreement": 0.4500601684717208,
+  "balanced_samples_per_class_domain": 18,
+  "target_count": 1670,
+  "directory": "ERM_resnet50_e2_s100"
+}

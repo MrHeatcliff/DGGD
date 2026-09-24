@@ -1,0 +1,70 @@
+{
+  "name": "pacs_methods_optuna",
+  "max_gpus": 4,
+  "backbones": [
+    "CORAL--dinov2",
+    "MMD--dinov2",
+    "DANN--dinov2",
+    "IRM--dinov2",
+    "CORAL--resnet18",
+    "MMD--resnet18",
+    "DANN--resnet18",
+    "IRM--resnet18",
+    "CORAL--resnet50",
+    "MMD--resnet50",
+    "DANN--resnet50",
+    "IRM--resnet50",
+    "CORAL--resnet50_augmix",
+    "MMD--resnet50_augmix",
+    "DANN--resnet50_augmix",
+    "IRM--resnet50_augmix"
+  ],
+  "domains": [
+    "art_painting",
+    "cartoon",
+    "photo",
+    "sketch"
+  ],
+  "steps": 5000,
+  "eval_every": 250,
+  "source_holdout_fraction": 0.2,
+  "split_seed": 0,
+  "search_seed": 0,
+  "confirm_top_k": 3,
+  "confirm_seeds": [
+    1,
+    2
+  ],
+  "final_seeds": [
+    100,
+    101,
+    102
+  ],
+  "sampler_seed": 20260921,
+  "max_task_attempts": 3,
+  "pools": [
+    {
+      "partition": "gpu_collaborative",
+      "gpus": 4,
+      "time": "2-00:00:00"
+    }
+  ],
+  "search_trials_by_pair": {
+    "CORAL--dinov2": 60,
+    "MMD--dinov2": 60,
+    "DANN--dinov2": 80,
+    "IRM--dinov2": 60,
+    "CORAL--resnet18": 60,
+    "MMD--resnet18": 60,
+    "DANN--resnet18": 80,
+    "IRM--resnet18": 60,
+    "CORAL--resnet50": 60,
+    "MMD--resnet50": 60,
+    "DANN--resnet50": 80,
+    "IRM--resnet50": 60,
+    "CORAL--resnet50_augmix": 60,
+    "MMD--resnet50_augmix": 60,
+    "DANN--resnet50_augmix": 80,
+    "IRM--resnet50_augmix": 60
+  }
+}
